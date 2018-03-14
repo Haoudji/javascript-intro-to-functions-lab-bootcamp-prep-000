@@ -17,11 +17,11 @@ function sayHiToGrandma(string){
   var lowercase = 'hello!';
   var mixedCase = 'I love you, Grandma.';
   if(lowercase === lowercase.toLowerCase() ){
-    return "I can't hear you"
+    return ("I can't hear you").toLowerCase()
   }else if(uppercase === uppercase.toUpperCase()){
-    return ("YES INDEED!")
+    return ("YES INDEED!").toUpperCase()
   }else if(mixedCase === mixedCase.toLowerCase() || mixedCase === mixedCase.toUpperCase()){
-    return "I love you, too"
+    return ("I love you, too")
   }
   
 }
