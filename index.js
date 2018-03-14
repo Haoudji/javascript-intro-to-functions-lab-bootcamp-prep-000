@@ -18,7 +18,7 @@ function sayHiToGrandma(string){
   var mixedCase = 'Hi there';
   if(string === lowercase){
     return "I can't hear you"
-  }else if(string === lowercase){
+  }else if(string === uppercase){
     return "YES INDEED!"
   }
   
